@@ -8,6 +8,15 @@ sudo apt update -y
 sudo apt upgrade -y
 
 echo "🌐 Installing NGINX web server..."
+
+# Exit if any command fails
+set -e
+
+echo "��� Updating system..."
+sudo apt update -y
+sudo apt upgrade -y
+
+echo "��� Installing NGINX..."
 sudo apt install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
@@ -17,6 +26,16 @@ WEBROOT="/var/www/html"
 sudo rm -f $WEBROOT/index.html $WEBROOT/style.css $WEBROOT/script.js
 
 echo "📄 Creating index.html..."
+
+echo "��� Creating website files..."
+
+# Define web root
+WEBROOT="/var/www/html"
+
+# Clear existing files
+sudo rm -f $WEBROOT/index.html $WEBROOT/style.css $WEBROOT/script.js
+
+# Write index.html
 sudo tee $WEBROOT/index.html > /dev/null << 'EOF'
 <!DOCTYPE html>
 <html lang="en">
@@ -98,7 +117,11 @@ sudo tee $WEBROOT/index.html > /dev/null << 'EOF'
 </html>
 EOF
 
+
 echo "🎨 Creating style.css..."
+=======
+# Write style.css
+
 sudo tee $WEBROOT/style.css > /dev/null << 'EOF'
 body {
   font-family: Arial, sans-serif;
@@ -144,7 +167,11 @@ a {
 }
 EOF
 
+
 echo "✨ Creating script.js..."
+
+# Write script.js
+
 sudo tee $WEBROOT/script.js > /dev/null << 'EOF'
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Welcome to Abdul Ganiyu's Cloud Capstone Website!");
@@ -152,4 +179,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 EOF
 
+
 echo "✅ Deployment Complete! Visit your EC2 public IP in the browser."
+
+echo "✅ Deployment Complete! Visit your public IP to view the website."
+

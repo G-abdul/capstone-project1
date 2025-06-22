@@ -29,6 +29,10 @@ h1 {
 }
 
 h2 {
+  color: #fff;
+}
+ 
+ h2 {
   color: #007acc;
 }
 ul {
@@ -44,3 +48,4 @@ footer {
 a {
   color: #007acc;
 }
+

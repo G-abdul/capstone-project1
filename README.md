@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 # 🚀 Static Website Deployment – Cloud Capstone Project
+=======
+# ��� Static Website Deployment – Cloud Capstone Project
+>>>>>>> e0f0a570fc6f5ec1b2f882a60cf035fd19009a69
 
 This project showcases the deployment of a **static website** on an **AWS EC2 instance** using **NGINX** and automated Bash scripting. It was completed as part of my Cloud Computing Capstone at **Techcrush Bootcamp**.
 
 ---
 
+<<<<<<< HEAD
 ## 📌 Objective
+=======
+## ��� Objective
+>>>>>>> e0f0a570fc6f5ec1b2f882a60cf035fd19009a69
 
 To build and deploy a static portfolio website on a cloud platform (AWS EC2), demonstrating core cloud concepts like:
 
@@ -16,7 +24,11 @@ To build and deploy a static portfolio website on a cloud platform (AWS EC2), de
 
 ---
 
+<<<<<<< HEAD
 ## 🧰 Technologies & Tools Used
+=======
+## ��� Technologies & Tools Used
+>>>>>>> e0f0a570fc6f5ec1b2f882a60cf035fd19009a69
 
 - **Amazon EC2 (Ubuntu 22.04)**
 - **NGINX** – Web Server
@@ -27,7 +39,11 @@ To build and deploy a static portfolio website on a cloud platform (AWS EC2), de
 
 ---
 
+<<<<<<< HEAD
 ## 🧪 What I Did
+=======
+## ��� What I Did
+>>>>>>> e0f0a570fc6f5ec1b2f882a60cf035fd19009a69
 
 ✅ Provisioned a new EC2 Ubuntu server  
 ✅ Installed and configured NGINX  
@@ -38,7 +54,11 @@ To build and deploy a static portfolio website on a cloud platform (AWS EC2), de
 
 ---
 
+
 ## 📁 File Structure
+=======
+## ��� File Structure
+
 
 capstone-project/
 ├── index.html
@@ -46,20 +66,30 @@ capstone-project/
 ├── script.js
 └── deploy.sh
 
-yaml
-Copy
-Edit
 
 ---
 
 ## 🌐 Live Preview (Demo)
 
 > 🔗 http://13.51.163.195  
+
+
+
+---
+
+## ��� Live Preview (Demo)
+
+> ��� http://13.51.163.195 
+
 > *(Hosted on AWS EC2)*
 
 ---
 
+<<<<<<< HEAD
 ## 🧠 Lessons Learned
+
+## ��� Lessons Learned
+
 
 - How to configure and secure a cloud server from scratch
 - The role of NGINX in serving static content
@@ -68,6 +98,7 @@ Edit
 
 ---
 
+<<<<<<< HEAD
 ## 🙋 About Me
 
 **Abdul Ganiyu Sumaila Ali**  
@@ -79,6 +110,18 @@ Aspiring Cloud Engineer | Techcrush Bootcamp Graduate
 ---
 
 ## 📸 Screenshots
+=======
+## ��� About Me
+
+**Abdul Ganiyu Sumaila Ali**  
+Aspiring Cloud Engineer | Techcrush Bootcamp Graduate  
+��� [alisumaila.1000@gmail.com](mailto:alisumaila.1000@gmail.com)  
+��� [LinkedIn](https://www.linkedin.com/in/abdulganiyu)  
+��� [GitHub](https://github.com/G-abdul)
+
+---
+
+## ��� Screenshots
 
 > _You can add screenshots of:_
 - EC2 Instance Running
@@ -87,6 +130,11 @@ Aspiring Cloud Engineer | Techcrush Bootcamp Graduate
 
 ---
 
+
 ## 📜 License
+
+This project is for educational purposes as part of the Techcrush Cloud Bootcamp.
+
+## ��� License
 
 This project is for educational purposes as part of the Techcrush Cloud Bootcamp.
