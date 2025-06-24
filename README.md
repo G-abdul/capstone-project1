@@ -43,7 +43,6 @@ To build and deploy a static portfolio website on a cloud platform (AWS EC2), de
 ✅ Wrote a full Bash script (`deploy.sh`) to automate the entire setup  
 ✅ Pushed all project files to GitHub for version control  
 ✅ Setup GitHub Actions for continuous deployment
-✅ Setup GitHub Actions for continuous deployment
 
 ---
 

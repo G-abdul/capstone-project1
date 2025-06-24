@@ -13,8 +13,6 @@ echo "🌐 Installing NGINX web server..."
 set -e
 
 echo "Updating system..."
-sudo apt update -y
-sudo apt upgrade -y
 
 echo "Installing NGINX..."
 sudo apt install nginx -y
@@ -106,7 +104,7 @@ sudo tee $WEBROOT/index.html > /dev/null << 'EOF'
       <p>Email: <a href="mailto:alisumaila.1000@gmail.com">alisumaila.1000@gmail.com</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/abdul~ganiyu" target="_blank">Abdul Ganiyu</a></p>
       <p>GitHub: <a href="https://github.com/G-abdul/Capstone-Project1" target="_blank">github.com/G-abdul/Capstone-Project</a></p>
-/section>
+    </section>
   </div>
 
   <footer>
@@ -120,6 +118,7 @@ EOF
 
 echo "🎨 Creating style.css..."
 # Write style.css
+
 
 sudo tee $WEBROOT/style.css > /dev/null << 'EOF'
 body {
@@ -179,5 +178,6 @@ document.addEventListener("DOMContentLoaded", () => {
 EOF
 
 
-echo "✅ Deployment Complete! Visit: http://13.51.163.195"
+echo "✅ Deployment Complete!"
+echo "🌐 Visit your website: http://13.51.163.195"
 
