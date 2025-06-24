@@ -12,11 +12,11 @@ echo "🌐 Installing NGINX web server..."
 # Exit if any command fails
 set -e
 
-echo "��� Updating system..."
+echo "Updating system..."
 sudo apt update -y
 sudo apt upgrade -y
 
-echo "��� Installing NGINX..."
+echo "Installing NGINX..."
 sudo apt install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
@@ -27,7 +27,7 @@ sudo rm -f $WEBROOT/index.html $WEBROOT/style.css $WEBROOT/script.js
 
 echo "📄 Creating index.html..."
 
-echo "��� Creating website files..."
+echo "Creating website files..."
 
 # Define web root
 WEBROOT="/var/www/html"
@@ -106,7 +106,7 @@ sudo tee $WEBROOT/index.html > /dev/null << 'EOF'
       <p>Email: <a href="mailto:alisumaila.1000@gmail.com">alisumaila.1000@gmail.com</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/abdul~ganiyu" target="_blank">Abdul Ganiyu</a></p>
       <p>GitHub: <a href="https://github.com/G-abdul/Capstone-Project1" target="_blank">github.com/G-abdul/Capstone-Project</a></p>
-    </section>
+/section>
   </div>
 
   <footer>
@@ -119,7 +119,6 @@ EOF
 
 
 echo "🎨 Creating style.css..."
-=======
 # Write style.css
 
 sudo tee $WEBROOT/style.css > /dev/null << 'EOF'
@@ -181,5 +180,4 @@ EOF
 
 
 echo "✅ Deployment Complete! Visit: http://13.51.163.195"
-
 

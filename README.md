@@ -1,5 +1,5 @@
-# 🚀 Static Website Deployment – Cloud Capstone Project
 
+# 🚀 Static Website Deployment – Cloud Capstone Project
 
 This project showcases the deployment of a **static website** on an **AWS EC2 instance** using **NGINX** and automated Bash scripting. It was completed as part of my Cloud Computing Capstone at **Techcrush Bootcamp**.
 
@@ -7,6 +7,7 @@ This project showcases the deployment of a **static website** on an **AWS EC2 in
 
 
 ## 📌 Objective
+
 
 To build and deploy a static portfolio website on a cloud platform (AWS EC2), demonstrating core cloud concepts like:
 
@@ -29,6 +30,7 @@ To build and deploy a static portfolio website on a cloud platform (AWS EC2), de
 - **Git & GitHub**
 - **GitHub Actions** (CI/CD)
 
+
 ---
 
 
@@ -41,12 +43,12 @@ To build and deploy a static portfolio website on a cloud platform (AWS EC2), de
 ✅ Wrote a full Bash script (`deploy.sh`) to automate the entire setup  
 ✅ Pushed all project files to GitHub for version control  
 ✅ Setup GitHub Actions for continuous deployment
+✅ Setup GitHub Actions for continuous deployment
 
 ---
 
 
 ## 📁 File Structure
-
 
 capstone-project/
 └── screenshots/
